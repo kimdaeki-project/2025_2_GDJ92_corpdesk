@@ -1,0 +1,75 @@
+.messageContainer{
+	height:75vh;
+	padding-right:5px;
+	overflow-y:scroll; 
+	} 
+html, body {
+	overflow: hidden; /* 내부 스크롤도 완전히 제거 */
+	height: 100%;
+}
+.profileImg{
+width:50px;
+height:50px;
+}
+.media-chat:not(.media-chat-right) .text-content {
+  border-top-left-radius: 0 !important;
+  border-bottom-left-radius: 25px !important;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  height: 100vh; /* 화면 꽉 차게 */
+}
+.media-body{
+	max-width:60%;
+}
+
+.messageContainer {
+  flex: 1;             /* 남은 공간 다 채움 */
+  overflow-y: auto;    /* 스크롤 가능 */
+}
+
+.chat-footer {
+  flex-shrink: 0;      /* footer가 절대 줄지 않음 */
+  background: #fff;
+  padding: 10px;
+}.input-group-chat {
+  padding : 0;
+}
+.card-header{
+	border-bottom: 1px solid #ddd !important;
+	
+}
+.hidden {
+		display: none !important;
+	}
+.hiddenSearch{
+		display: none !important;
+	}
+.system-message {
+  text-align: center;
+  font-size: 0.85rem;
+  color: #999;       /* 흐리게 */
+  margin: 10px 0;
+  font-style: italic;
+}
+ .time{
+	margin-top: 2px;
+  font-size: 0.8rem;
+  color: #888;
+}
+
+.media-chat-right .text-content .time {
+  display: block;
+  text-align: right;
+  
+} 
+.input-group {
+
+    width: 97%;
+}
+.messageInput {
+	height: 100px !important;
+	resize:none !important;
+	border-left-color: #e5e9f2 !important;
+}

@@ -1,0 +1,17 @@
+.hidden {
+		display: none !important;
+	}
+.chat-left-sidebar .card-header {
+	position: relative;
+  justify-content: center !important; /* 양끝 배치 대신 가운데 정렬 */
+  flex-direction: column; /* 세로 배치 */
+  align-items: center;
+}
+
+.chat-left-sidebar .card-header h2 {
+  margin-bottom: 10px;
+}
+.input-group {
+
+    width: 97%;
+}
