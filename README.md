@@ -8,7 +8,7 @@
 주 제 : 그룹웨어
 팀 원 : 김지남, 고두현, 백준수, 송성재, 정기훈
 GitHub URL : https://github.com/Goodee-Final-Project-1/corpdesk
-최종 Branch : dev
+최종 Branch : main
 ```
 
 
